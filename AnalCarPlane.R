@@ -11,7 +11,7 @@ width <- 30
 height <- 30
 
 extrair_caracteristicas <- function(dir_path, width, height){
-  img_size <- width * height
+  img_size <- width * height * 3
   image_name <- list.files(dir_path)
   print(paste("Iniciando Processo", length(image_name), "imagens"))
   
